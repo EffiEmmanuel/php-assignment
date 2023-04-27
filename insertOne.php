@@ -10,7 +10,7 @@ mysqli_select_db($connection, 'myDB');
 
 $query = "INSERT INTO MyGuest (firstname, lastname, email, reg_date)
           VALUES
-          ('Olasubomi', 'Shoyemi', 'oshoyemi9@gmail.com', '2023-04-24')";   
+          ('Effi', 'Emmanuel', 'effiemmanuel.n@gmail.com', '2023-04-24')";   
 if (mysqli_query($connection, $query)) {
     echo "New records inserted successfully";
   } else {
